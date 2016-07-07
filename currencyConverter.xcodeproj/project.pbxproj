@@ -12,6 +12,8 @@
 		2A97C77D1D2E2A42000F3784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A97C77B1D2E2A42000F3784 /* Main.storyboard */; };
 		2A97C77F1D2E2A42000F3784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A97C77E1D2E2A42000F3784 /* Assets.xcassets */; };
 		2A97C7821D2E2A43000F3784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A97C7801D2E2A43000F3784 /* LaunchScreen.storyboard */; };
+		2A97C78A1D2E3239000F3784 /* geekCurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97C7891D2E3239000F3784 /* geekCurrencyConverter.swift */; };
+		2A97C78C1D2E3288000F3784 /* geekCurrencyUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97C78B1D2E3288000F3784 /* geekCurrencyUnit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2A97C77E1D2E2A42000F3784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A97C7811D2E2A43000F3784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A97C7831D2E2A43000F3784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A97C7891D2E3239000F3784 /* geekCurrencyConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = geekCurrencyConverter.swift; path = ../geekCurrencyConverter.swift; sourceTree = "<group>"; };
+		2A97C78B1D2E3288000F3784 /* geekCurrencyUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = geekCurrencyUnit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				2A97C7771D2E2A42000F3784 /* AppDelegate.swift */,
 				2A97C7791D2E2A42000F3784 /* ViewController.swift */,
+				2A97C78D1D2E3293000F3784 /* Classes */,
 				2A97C77B1D2E2A42000F3784 /* Main.storyboard */,
 				2A97C77E1D2E2A42000F3784 /* Assets.xcassets */,
 				2A97C7801D2E2A43000F3784 /* LaunchScreen.storyboard */,
 				2A97C7831D2E2A43000F3784 /* Info.plist */,
 			);
 			path = currencyConverter;
+			sourceTree = "<group>";
+		};
+		2A97C78D1D2E3293000F3784 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A97C7891D2E3239000F3784 /* geekCurrencyConverter.swift */,
+				2A97C78B1D2E3288000F3784 /* geekCurrencyUnit.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A97C78C1D2E3288000F3784 /* geekCurrencyUnit.swift in Sources */,
 				2A97C77A1D2E2A42000F3784 /* ViewController.swift in Sources */,
+				2A97C78A1D2E3239000F3784 /* geekCurrencyConverter.swift in Sources */,
 				2A97C7781D2E2A42000F3784 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
